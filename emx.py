@@ -38,9 +38,6 @@ def emx():
 	request.args.get("q"), request.args.get("d")
     return "OK"
 
-@app.route("/fullname")
-def fullname():
-    return "Arun Suresh"
 
 if __name__=='__main__':
     app.run(host='0.0.0.0')
