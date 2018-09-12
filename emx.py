@@ -1,7 +1,7 @@
-from flask import Flask
+from flask import Flask, request
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/", methods=['GET'])
 def emx():
     return "OK"
 
