@@ -26,7 +26,8 @@ def emx():
         return "University of California, Riverside - Bachelors in Science, Business Economics"
 
     if request.args.get("q") == "Resume":
-        return ""
+	return "https://docs.google.com/document/d/1cQtQ-w3J_UbXQU_49kQ9XmkR9sGuN1OmhU-h7dX3jXE/edit"
+
 
     if request.args.get("q") == "Source":
 	return "https://github.com/arunvsuresh/emx"
